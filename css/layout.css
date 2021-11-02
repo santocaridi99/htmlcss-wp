@@ -70,10 +70,15 @@ nav ul li a {
 
 
 
-.azzurro{
-    background-color: #a1dbf5;
+.titolo{
+   
     height: 100px;
 }
+
+.testo-piccolo{
+    color:#d5d5d5;
+}
+
 
 .row{
     height:500px ;
