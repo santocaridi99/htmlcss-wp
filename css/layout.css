@@ -39,6 +39,10 @@ nav ul li a {
     padding: 0 5px;
 }
 
+nav ul li:hover {
+    background: grey;
+}
+
 .immagine-principale{
     position:relative;
 }
