@@ -81,8 +81,6 @@ nav ul li a {
 
 
 .row{
-    height:500px ;
-    background-color: #1196ff;
     padding-top:20px ;
     padding-bottom: 20px;
     
@@ -98,20 +96,13 @@ nav ul li a {
   
 }
 
-.sidebar,main{
-    background-color:#a1dbf5 ;
-}
-main{
+
+.center{
     float: right;
     width: calc(60% - 40px);
     height: 100%;
     margin-right: 20px;
-    margin-left: 20px;
-
-
-    
-    
-    
+    margin-left: 20px; 
 }
 
 .dx{
@@ -124,6 +115,49 @@ main{
     width: 20%;
     height: 100%;
 }
+
+.contimg{
+    height: 100%;
+}
+
+.immagine{
+    height: 170px;
+    background-size:cover;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+.immagine.destra{
+    background:url(../img/img-3.jpg) no-repeat 90% 40%;  
+}
+
+.immagine.sinistra{
+    background:url(../img/img-1.jpg) no-repeat 50% 50%;
+}
+
+.immagine.centrale{
+    background:url(../img/banner-2.jpg) no-repeat 50%;
+    background-size: cover;
+}
+
+.argomento{
+    margin-top: 20px;
+}
+
+.argomento>span{
+    font-size: 15px;
+}
+
+.argomento>p{
+    color: #d5d5d5;
+    margin-top: 10px;
+}
+
+
+
 
 footer{
     background-color:#7a01cd;
