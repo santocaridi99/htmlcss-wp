@@ -125,7 +125,7 @@ nav ul li:hover {
 }
 
 .immagine{
-    height: 170px;
+    height: 180px;
     background-size:cover;
     border-radius: 10px;
     filter: brightness(90%);
@@ -136,12 +136,12 @@ nav ul li:hover {
 
 
 .immagine.destra{
-    background:url(../img/img-3.jpg) no-repeat 90% 40%;  
+    background:url(../img/img-3.jpg) no-repeat 50% 50%; 
 }
 
 .immagine.sinistra{
-    background:url(../img/img-1.jpg) no-repeat 50% 50%;
-}
+    background:url(../img/img-1.jpg) no-repeat 50% 50% ;
+} 
 
 .immagine.centrale{
     background:url(../img/banner-2.jpg) no-repeat 50%;
