@@ -124,6 +124,7 @@ nav ul li a {
     height: 170px;
     background-size:cover;
     border-radius: 10px;
+    filter: brightness(90%);
     
     
 }
@@ -160,9 +161,13 @@ nav ul li a {
 
 
 footer{
-    background-color:#7a01cd;
-    height:50px ;
-    margin-top: 10px;
+    
+    margin:20px;
+    text-align: center;
+}
+
+footer>span{
+    color: red;
 }
 
 
